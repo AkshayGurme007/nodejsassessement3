@@ -20,10 +20,10 @@ app.get("/firstpage", Middleware2, (req, res) => {
   res.send("<h1>first Page with middleware1 and Middleware2</h1>");
 });
 app.get("/secondpage", (req, res) => {
-  res.send("<h1>first Page with middleware1</h1>");
+  res.send("<h1>second Page with middleware1</h1>");
 });
 app.get("/thirdpage", (req, res) => {
-  res.send("<h1>first Page with middleware1</h1>");
+  res.send("<h1>third Page with middleware1</h1>");
 });
 
 app.listen(4005);
